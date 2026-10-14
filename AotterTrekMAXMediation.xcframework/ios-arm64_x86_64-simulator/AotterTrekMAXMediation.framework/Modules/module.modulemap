@@ -1,0 +1,6 @@
+framework module AotterTrekMAXMediation {
+  umbrella header "AotterTrekMAXMediation.h"
+  export *
+
+  module * { export * }
+}

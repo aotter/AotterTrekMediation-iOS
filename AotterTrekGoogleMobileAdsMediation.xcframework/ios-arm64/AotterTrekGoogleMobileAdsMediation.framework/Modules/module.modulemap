@@ -1,0 +1,6 @@
+framework module AotterTrekGoogleMobileAdsMediation {
+  umbrella header "AotterTrekGoogleMobileAdsMediation.h"
+  export *
+
+  module * { export * }
+}
