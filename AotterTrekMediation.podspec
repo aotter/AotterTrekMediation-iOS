@@ -1,11 +1,11 @@
 # Release podspec of the AotterTrek mediation adapters (repo aotter/AotterTrekMediation-iOS).
 Pod::Spec.new do |s|
   s.name                  = 'AotterTrekMediation'
-  s.version               = '5.0.0'
+  s.version               = '5.0.1'
   s.summary               = 'AotterTrek mediation adapters for Google Mobile Ads (AdMob / Ad Manager) and AppLovin MAX.'
   s.description           = <<-DESC
     Closed-source mediation adapters that let Google Mobile Ads (AdMob and Google Ad Manager) and AppLovin MAX serve
-    AotterTrek native and banner ads through AotterTrekSDK 5.0.0 or later. Pure Objective-C static frameworks; the app links the
+    AotterTrek native and banner ads through AotterTrekSDK 5.0.1 or later. Pure Objective-C static frameworks; the app links the
     ad network SDKs and AotterTrekSDK itself. Subspecs: GoogleMobileAds (default; AdMob and GAM are aliases), MAX.
   DESC
   s.homepage              = 'https://github.com/aotter/AotterTrekMediation-iOS'
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.source                = { :git => 'https://github.com/aotter/AotterTrekMediation-iOS.git', :tag => s.version.to_s }
   s.ios.deployment_target = '15.0'
   s.static_framework      = true
-  s.dependency 'AotterTrekSDK', '>= 5.0.0'   # inherited by every subspec: installing only MAX still brings the SDK
+  s.dependency 'AotterTrekSDK', '>= 5.0.1'   # inherited by every subspec: installing only MAX still brings the SDK
   s.default_subspecs      = 'GoogleMobileAds'
 
   s.subspec 'GoogleMobileAds' do |ss|

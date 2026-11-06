@@ -1,5 +1,27 @@
 # Changelog
 
+## 5.0.1 (101)
+
+### Added
+- `extraAssets["adType"]` on Google Mobile Ads native ads: the placement type the ad was served for, "NATIVE",
+  "NATIVE_MULTIMEDIA" or "BANNER".
+- Native Multimedia Ads shown through the adapters, in native ads and in banners, move with the page when the app calls
+  `+[AotterTrekSDK notifyAdScrolled]` from `scrollViewDidScroll` (new in AotterTrekSDK 5.0.1).
+
+### Changed
+- This release requires AotterTrekSDK 5.0.1 or later and does not work with 5.0.0. The pod and the Swift package
+  declare the minimum.
+
+### Fixed
+- Google Mobile Ads now counts the clicks on an interactive Native Multimedia Ad, clicks in its pop-up included, in a
+  native ad or a banner.
+
+### Missing from the 5.0.0 notes (upgrading from 1.x)
+- Banners: 5.0 lays a banner out at the size the request asks for, and a request without a height gets the placement's
+  size. 1.x did not follow the requested size.
+- Scrolling: 5.0 no longer receives the `"SuprAdScrolled"` notification the 1.x adapters listened for. With 5.0.1,
+  call `+[AotterTrekSDK notifyAdScrolled]` instead; it moves the ads in banners too.
+
 ## 5.0.0 (100)
 
 First release of the AotterTrek mediation adapters as a separate product, rewritten on the SDK's public `ATK` API.

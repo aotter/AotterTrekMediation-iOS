@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/AotterTrekMAXMediation.framework/AotterTrekMAXMediation</key>
 		<data>
-		SxLcBaPk2L1FXIP+rVvHhSqG8oU=
+		eWuEXC3Pkw0sJ0FmgQPSFnBDslk=
 		</data>
 		<key>ios-arm64/AotterTrekMAXMediation.framework/Headers/AotterTrekMAXMediation.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>ios-arm64/AotterTrekMAXMediation.framework/Info.plist</key>
 		<data>
-		EMlUfYCkvD2QOjQEMyPtgcHer0c=
+		Gy/dHGPKkLO+Er8uWZ2ADs4Key4=
 		</data>
 		<key>ios-arm64/AotterTrekMAXMediation.framework/Modules/module.modulemap</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AotterTrekMAXMediation.framework/AotterTrekMAXMediation</key>
 		<data>
-		tqSk5mKRzEYK9UVqub8Bl2dCQpk=
+		AYgNVlr2Knk/+ThZr6GnNpaTeyg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AotterTrekMAXMediation.framework/Headers/AotterTrekMAXMediation.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AotterTrekMAXMediation.framework/Info.plist</key>
 		<data>
-		Z4oRaLGTfGflEt+t4hhIdLjSeNY=
+		ygnyDb9GuA+upLQ7PmaIMPgLmOg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AotterTrekMAXMediation.framework/Modules/module.modulemap</key>
 		<data>
@@ -59,7 +59,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			68sthJ2PvTbd3M2+zz91Pur1T4qGQjivqPTkolnYkx0=
+			8+ok7/GBv00HGiRMYaKwSTeXq6VLwMrYGJjrZ26i6bk=
 			</data>
 		</dict>
 		<key>ios-arm64/AotterTrekMAXMediation.framework/Headers/AotterTrekMAXMediation.h</key>
@@ -80,7 +80,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8rNr9UDatwN+0SL3UsTskQzLmxnxlj4e0YOqRUfeQ7g=
+			rYVS0PC5T3sPRM1kMLVgdaVErc2xJzIOr+/EC2nEUxE=
 			</data>
 		</dict>
 		<key>ios-arm64/AotterTrekMAXMediation.framework/Modules/module.modulemap</key>
@@ -101,7 +101,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6Dw3z1mcQO4ha1dM2qESmowWD3XfQ1IRZe8wP1b+tIQ=
+			fhplOeP86JziNgmNqTptIIjtW7S4dpX879/eG829O/k=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AotterTrekMAXMediation.framework/Headers/AotterTrekMAXMediation.h</key>
@@ -122,7 +122,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+ODG7x6f1sPdgn3KuFsezA/wCetrq5lj0PST7MgWudo=
+			Mj+D9XHFu/MBUyOkY/XxjJC9S8zBw8ImE6Jjg3xwsfs=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AotterTrekMAXMediation.framework/Modules/module.modulemap</key>

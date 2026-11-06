@@ -16,7 +16,7 @@ let package = Package(
         .library(name: "AotterTrekMAXMediation", targets: ["AotterTrekMAXMediationWrapper"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/aotter/AotterTrekSDK-iOS.git", from: "5.0.0"),
+        .package(url: "https://github.com/aotter/AotterTrekSDK-iOS.git", from: "5.0.1"),
         // The ad-network ranges cover the majors this adapter supports; `from:` would pin a single major and lock a
         // Google Mobile Ads 13 app out of this package.
         .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", "12.0.0" ..< "14.0.0"),
