@@ -176,4 +176,4 @@ network or loading the first ad: the adapter's own initialisation would clear th
 
 ## Support
 
-sdk@aotter.net
+robert.hsueh@aotter.net

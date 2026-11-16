@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   DESC
   s.homepage              = 'https://github.com/aotter/AotterTrekMediation-iOS'
   s.license               = { :type => 'Commercial', :file => 'LICENSE' }
-  s.authors               = { 'Aotter' => 'sdk@aotter.net' }
+  s.authors               = { 'Aotter' => 'robert.hsueh@aotter.net' }
   s.source                = { :git => 'https://github.com/aotter/AotterTrekMediation-iOS.git', :tag => s.version.to_s }
   s.ios.deployment_target = '15.0'
   s.static_framework      = true
